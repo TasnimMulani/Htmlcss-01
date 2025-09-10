@@ -24,6 +24,23 @@
       background-color: #f03939;
       border-radius: 10px;
     }
+    section {
+       padding-bottom: 80px;
+
+    }
+    #home {
+        padding-bottom: 1000px;
+        background-color: aqua;
+    }#about {
+        padding-bottom: 1000px;
+        background-color: rebeccapurple;
+    }#services {
+        padding-bottom: 1000px;
+        background-color: red;
+    }#contact {
+        padding-bottom: 1000px;
+        background-color: green;
+    }
 
    
     @media (max-width: 600px) {
@@ -40,27 +57,22 @@
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </div>
+      <section id="home">
+        <h2>Welcome to my new page</h2>
+        </section>
+        <section id="about">
+        <h2>Welcome to my new page</h2>
+        </section>
+        <section id="services">
+        <h2>Welcome to my new page</h2>
+        </section>
+        <section id="contact">
+        <h2>Welcome to my new page</h2>
+        </section>
+
+
+
+
+  
 </body>
 </html>
-
-
-Explanation
-
-
-HTML Structure:
-
-The <div> with the class navbar acts as the container for the navigation links.
-Each <a> tag represents a link in the navbar.
-
-
-
-CSS Styling:
-
-The .navbar class uses flexbox for layout, making it easy to align items horizontally or vertically.
-The .navbar a styles the links with padding, color, and hover effects.
-A media query ensures the navbar adapts to smaller screens by stacking links vertically.
-
-
-
-
-This is a simple yet effective way to create a navbar. You can further enhance it with dropdown menus, animations, or JavaScript for interactivity!
